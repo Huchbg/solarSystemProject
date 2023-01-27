@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+    <title>Solar System</title>
+  </head>
+  <body>
+    <div class="givDiv">
+      <div class="wrapper">
+        <h1 class="heading">Calculate the weight of an object on a planet</h1>
+
+        <div class="Inputs">
+          <input type="text" id="mass" placeholder="Mass in Kilogram" />
+
+          <div class="customSelect">
+            <select class="SELECT">
+              <option class="option" value="none">--select planet--</option>
+              <option class="option" value="Earth">EARTH</option>
+              <option class="option" value="Moon">MOON</option>
+              <option class="option" value="Mars">MARS</option>
+              <option class="option" value="Venus">VENUS</option>
+              <option class="option" value="Mercury">MERCURY</option>
+              <option class="option" value="Saturn">SATURN</option>
+              <option class="option" value="Uranus">URANUS</option>
+              <option class="option" value="Neptun">NEPTUN</option>
+              <option class="option" value="Plupo">PLUTO</option>
+              <option class="option" value="Jupiter">JUPITER</option>
+            </select>
+
+            <span class="blockche"
+              ><i class="fa-solid fa-arrows-up-down"></i
+            ></span>
+          </div>
+
+          <button class="BTN">Calculate weight</button>
+        </div>
+
+        <div class="imagesAndMore">
+          <img class="image" src="images/earth.png" alt="Earth image" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
